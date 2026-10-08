@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="home-container">
+
+        <h1>Welcome,ya ro7y❤️</h1>
+
+        <p class="love-text">
+            I made this little place just for you,
+            because every moment with you is special to me. ❤️
+        </p>
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <button onclick="showMessage()">
+            Click Here ❤️
+        </button>
+
+        <p id="love-message"></p>
+
+<h2>Our Memories 📸</h2>
+
+<div class="main-photo">
+    <img id="mainImage" src="images/photo1.jpg" alt="Our memory">
+</div>
+
+<div class="gallery">
+
+    <img src="images/photo1.jpg" alt="Our memory" onclick="changeImage(this)">
+
+    <img src="images/photo2.jpg" alt="Our memory" onclick="changeImage(this)">
+
+    <img src="images/photo3.jpg" alt="Our memory" onclick="changeImage(this)">
+
+</div> 
+
+<div class="letter">
+
+    <h2>A Little Letter For You 💌</h2>
+
+    <p>
+        I don't know if words will ever be enough
+        to explain how much you mean to me.
+        But I wanted to make this little website
+        just for you, so you can always remember
+        how special you are to me. ❤️
+    </p>
+
+    <p>
+        Every picture here has a memory,
+        and every memory means something to me.
+        I'm really grateful for every moment
+        we have shared together. ❤️
+    </p>
+
+    <p>
+        This little website is just a small way
+        of saying something simple...
+    </p>
+
+    <h3>I Love You ❤️</h3>
+
+</div>
+<section class="chat-memories">
+
+    <h2>Our Little Conversations 💬❤️</h2>
+
+    <p class="section-text">
+        Some conversations are too special to forget.
+    </p>
+
+    <div class="chat-gallery">
+
+        <img src="images/chat1.jpg"
+             alt="Our conversation"
+             onclick="openChat(this)">
+
+        <img src="images/chat2.jpg"
+             alt="Our conversation"
+             onclick="openChat(this)">
+
+        <img src="images/chat3.jpg"
+             alt="Our conversation"
+             onclick="openChat(this)">
+
+        <img src="images/chat4.jpg"
+             alt="Our conversation"
+             onclick="openChat(this)">
+
+        <img src="images/chat5.jpg"
+             alt="Our conversation"
+             onclick="openChat(this)">
+
+    </div>
+
+</section>
+
+<div id="chatModal" class="chat-modal">
+
+    <span class="close-button" onclick="closeChat()">
+        &times;
+    </span>
+
+    <button class="prev-button" onclick="previousChat()">
+        &#10094;
+    </button>
+
+    <img id="chatModalImage" class="modal-image">
+
+    <button class="next-button" onclick="nextChat()">
+        &#10095;
+    </button>
+
+</div> 
+<section class="love-letter">
+
+    <div class="letter-icon">
+        💌
+    </div>
+
+    <h2>A Letter From Me To You ❤️</h2>
+
+    <p class="letter-intro">
+        There are some things I don't say enough...
+    </p>
+
+    <div class="letter-content">
+
+        <p>
+           jumana❤️ ,
+        </p>
+
+        <p>
+        Look, my love, we haven't been together for that long,
+        but I swear you've changed so many things in my life.
+        Your presence means so much to me, and I would never
+        want to hurt you or ever treat you badly
+        </p>
+
+        <p>
+        You're my soul, and honestly, who would ever want to
+        hurt their own soul? I'm genuinely so lucky to have you,
+        my girl. May God always keep you in my life and never
+        take you away from me, not your care, not your kindness,
+        and not the way you worry about me.
+        </p>
+
+        <p>
+        I really love you so much, and I could never walk away
+        from you, no matter what happens between us.
+        And please, don't ever walk away from me either.
+        I don't want us to hurt each other and then just become
+        a short chapter in each other's lives.    
+        </p>
+
+        <p>
+            Thank you for every laugh, every conversation,
+            every memory, and every moment we have shared.
+        </p>
+
+        <p>
+            Whatever happens and wherever life takes us,
+            I will always appreciate the memories we made
+            together. ❤️
+        </p>
+
+        <p class="final-message">
+            I love you so much jumana❤️ 
+        </p>
+
+        <p class="signature">
+            With all my love,<br>
+            Abdelrahman ❤️
+        </p>
+
+    </div>
+
+</section>        
+<section class="final-surprise">
+
+    <div class="final-heart">
+        ❤️
+    </div>
+
+    <p class="last-thing">
+        One last thing...
+    </p>
+
+    <button onclick="showFinalSurprise()">
+        Open It 💌
+    </button>
+
+    <div id="final-content">
+
+        <img src="images/final.jpg" alt="Our favorite memory">
+
+        <h2>Jamana ❤️</h2>
+
+        <p>
+            This isn't just a website.
+            It's a little place where I kept some
+            of my favorite memories with you.
+        </p>
+
+        <p>
+            Thank you for being part of my life. ❤️
+        </p>
+
+        <h3>
+            I Love You ❤️
+        </h3>
+
+        <button onclick="location.href='index.html'">
+            Replay Our Memories 🔄
+        </button>
+
+    </div>
+
+</section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
